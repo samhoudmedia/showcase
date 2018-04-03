@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/samhoudmedia/showcase#readme",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "pug": "^2.0.3"
   }
