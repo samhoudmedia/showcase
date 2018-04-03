@@ -20,6 +20,8 @@ Both internally and externally people find it hard to grasp what the possibiliti
 * Make sure you have [`node`](https://nodejs.org/en/) installed on your machine.
 * [`npm`](https://www.npmjs.com/) comes with node.
 * You can check versions with; `npm -v` and `node -v`
+* Configure [ESLint](https://eslint.org/docs/user-guide/integrations)
+* Configure [EditorConfig](http://editorconfig.org/)
 
 ### Installation
 1. Clone this repo
