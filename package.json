@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/samhoudmedia/showcase#readme",
   "dependencies": {
+    "concurrently": "^3.5.1",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "nodemon": "^1.17.3",
