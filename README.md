@@ -23,6 +23,8 @@ Both internally and externally people find it hard to grasp what the possibiliti
 * Configure [ESLint](https://eslint.org/docs/user-guide/integrations)
 * Configure [EditorConfig](http://editorconfig.org/)
 
+*For connection to MongoDB you will need an `.env`. Please create an [issue](https://github.com/samhoudmedia/showcase/issues) for this repository if you need more information.*
+
 ### Installation
 1. Clone this repo
 ```
