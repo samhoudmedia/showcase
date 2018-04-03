@@ -32,4 +32,4 @@ https://github.com/samhoudmedia/showcase.git
 3. Run `npm start` to start the local development server
 
 ## 📃 License
-This project is licensed under the [MIT](LICENSE) License
+This project is licensed under the [MIT](LICENSE) License. The setup of this project is based on [Learn Node by Wes Bos](https://learnnode.com/).
