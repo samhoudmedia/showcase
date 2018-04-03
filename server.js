@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
 
+const routes = require('./routes');
+
 // Require .env variables
 require('dotenv').config({ path: 'variables.env' });
 
@@ -14,8 +16,11 @@ app.set('view engine', 'pug');
 // Serve public files
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.set('port', process.env.PORT || 7777);
+// Use these routes
+app.use('/', routes);
 
+// Set the port and start server
+app.set('port', process.env.PORT || 7777);
 const server = app.listen(app.get('port'), () => {
   console.log(`Express running → PORT ${server.address().port}`);
 });
