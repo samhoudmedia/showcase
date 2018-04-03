@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/samhoudmedia/showcase/issues"
   },
-  "homepage": "https://github.com/samhoudmedia/showcase#readme"
+  "homepage": "https://github.com/samhoudmedia/showcase#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
