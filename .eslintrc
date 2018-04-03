@@ -6,6 +6,6 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    "no-console": 1
+    "no-console": 0
   }
 }
