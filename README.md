@@ -1,18 +1,18 @@
 # &Samhoudmedia Showcase
-> Showcasing the possibilities of WebVR.
+> Recruitment (show)cases for &Samhoud 
 
 ![Showcase Github Banner](/docs/github-banner.jpg)
 
 ## 📖 Introduction
-Both internally and externally people find it hard to grasp what the possibilities of WebVR (VR in the browser) are. This showcase was created to show some VR demo's using [A-Frame](https://aframe.io/).
+Central toolkit website for recruiters to startup the different Virtual Reality experiences (cases) for use during the 'junior carousel'. As opposed to having a different link for each experience.
+
+*As an enhancement MongoDB and Mongoose will be used for login so the usage is restricted to recruiters only.*
 
 ## ⚙ Installation & Development
 
 ### Tech Stack
 * [Node.JS](http://nodejs.org) w/
   * [Express](https://expressjs.com) webserver
-  * [MongoDB](https://www.mongodb.com/) storage
-  * [Mongoose](https://www.npmjs.com/package/mongoose) interface
   * [Pug](https://www.npmjs.com/package/pug) templating
 * [Webpack](https://webpack.js.org/) bundle
 
