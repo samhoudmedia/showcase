@@ -25,7 +25,7 @@ const styles = {
 
 const config = {
   entry: {
-    main: './public/js/index.js'
+    main: './src/js/index.js'
   },
   devtool: 'source-map',
 
@@ -37,7 +37,7 @@ const config = {
     rules: [javascript, styles]
   },
   plugins: [
-    new ExtractTextPlugin('style.css'),
+    new ExtractTextPlugin('main.css'),
   ]
 };
 process.noDeprecation = true;

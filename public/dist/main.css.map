@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/sass/style.scss"],"names":[],"mappings":"AAEA;EACE,0BAAyB,EAC1B","file":"main.css","sourcesContent":["@import 'config/color';\n\nbody {\n  background-color: hotpink;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/sass/style.scss"],"sourceRoot":""}
