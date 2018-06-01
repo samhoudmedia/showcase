@@ -1,5 +1,9 @@
+@import 'config/typography';
 @import 'config/color';
+@import 'config/depth';
+@import 'config/animation';
 
-body {
-  background-color: hotpink;
-}
+@import 'components/nav';
+@import 'components/card';
+@import 'components/button';
+@import 'components/header';

@@ -1,0 +1,26 @@
+nav {
+  background-color: $background-color;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  box-shadow: $light-shadow;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 1em;
+  border-top: 5px solid $primary-color;
+  color: $primary-color;
+
+  img {
+    width: 50%;
+  }
+
+  ul {
+    display: flex;
+    margin-left: auto;
+
+    li {
+      margin-right: 1em;
+    }
+  }
+}

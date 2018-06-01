@@ -1,6 +1,11 @@
 extends layouts/layout
 
-include components/_heading
+include components/_nav
+include components/_header
+include components/_card
 
 block content
-  +heading()
+  +nav()
+  +header()
+  section
+    +card()
