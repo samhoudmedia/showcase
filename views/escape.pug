@@ -2,7 +2,9 @@ extends layouts/detail
 
 include components/_header
 include components/_bar
+include components/_list
 
 block content
   +bar()
-  +header()
+  +header('Escape Room', 'Probeer door middel van objecten in de kamer de juiste code voor het cijferslot te achterhalen.', 'no-margin')
+  +list('2', 'Analytisch Communicatief')

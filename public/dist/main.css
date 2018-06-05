@@ -52,8 +52,11 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
-header {
+.margin {
   margin: 9vh 0; }
+
+.no-margin {
+  margin-top: 9vh; }
 
 section {
   margin: 1em; }
