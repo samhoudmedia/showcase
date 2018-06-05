@@ -6,6 +6,17 @@
   width: 100%;
   text-align: center;
 
+  &-secondary {
+    margin-bottom: 3vh;
+    color: $text-color-white !important;
+    background: $primary-color;
+    transition: background $easeIn;
+
+    &:hover, &:focus {
+      background: darken($primary-color, 20%)
+    }
+  }
+
   &-primary {
     color: $text-color-white !important;
     background: $primary-color;
