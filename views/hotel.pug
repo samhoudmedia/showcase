@@ -1,6 +1,15 @@
 extends layouts/detail
 
 include components/_header
+include components/_bar
+include components/_list
 
 block content
-  +header()
+  +bar()
+  +header('Hotel Hints', 'Kamer met hints en puzzels in de vorm van een 360-graden foto.', 'no-margin')
+  section
+    h4 Overzicht
+    +list('Case: Individueel', 'Aantal spelers: 1', 'Competentie(s): Analytisch')
+    h4 Omschrijving
+    p Je staat in het midden van een hotelkamer zonder enige instructies. Door goed door de kamer te kijken en hints te spotten kunnen je een 4-cijferige code achterhalen. Deze kan vervolgens worden gebruikt om het cijferslot te openen.
+    a(href=link, class="btn btn-secondary") Start VR

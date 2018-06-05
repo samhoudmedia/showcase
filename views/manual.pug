@@ -1,6 +1,15 @@
 extends layouts/detail
 
 include components/_header
+include components/_bar
+include components/_list
 
 block content
-  +header()
+  +bar()
+  +header('The Manual', 'Weet door middel van een handleiding de code in de kamer te kraken.', 'no-margin')
+  section
+    h4 Overzicht
+    +list('Case: Individueel', 'Aantal spelers: 1', 'Competentie(s): Analytisch')
+    h4 Omschrijving
+    p Voor je zie je een grote knop met een specifieke kleur en cijfer. Door de fysieke handleiding te lezen die naast je in de ruimte ligt kun je achterhalen wat je moet doen om de knop te activeren en de 4-cijferige code te achterhalen.
+    a(href=link, class="btn btn-secondary") Start VR
