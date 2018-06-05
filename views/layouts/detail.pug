@@ -1,0 +1,14 @@
+include ../meta/_link
+include ../meta/_icon
+include ../meta/_meta
+include ../meta/_og
+
+doctype html
+html
+  head
+    +meta()
+    +icon()
+    +link()
+    +og()
+  body
+    block content
