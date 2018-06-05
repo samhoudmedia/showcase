@@ -6,11 +6,15 @@
   "directories": {
     "doc": "docs"
   },
+  "now": {
+    "dotenv": "variables.env.now"
+  },
   "scripts": {
+    "start": "node ./server.js",
     "assets": "webpack -w",
     "watch": "nodemon ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name"
+    "dev": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name"
   },
   "repository": {
     "type": "git",
