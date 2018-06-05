@@ -2,8 +2,11 @@ article {
   box-shadow: $light-shadow;
   background-color: $background-color;
   color: $primary-color;
-  margin-bottom: 10vh;
   font-weight: 200;
+
+  &:not(:last-child) {
+    margin-bottom: 10vh;
+  }
 
   div {
     padding: 1em;
