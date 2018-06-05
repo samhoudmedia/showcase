@@ -1,4 +1,4 @@
-.nav {
+.bar {
   background-color: $background-color;
   display: flex;
   align-items: center;
@@ -10,7 +10,6 @@
   padding: 0 1em;
   border-top: 5px solid $primary-color;
   color: $primary-color;
-  height: 10vh;
 
   img {
     width: 50%;

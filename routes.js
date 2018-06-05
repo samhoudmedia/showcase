@@ -6,7 +6,19 @@ router.get('/', (req, res) => {
 });
 
 router.get('/escape', (req, res) => {
-  res.render('detail');
+  res.render('escape');
+});
+
+router.get('/hotel', (req, res) => {
+  res.render('hotel');
+});
+
+router.get('/manual', (req, res) => {
+  res.render('manual');
+});
+
+router.get('/soma', (req, res) => {
+  res.render('soma');
 });
 
 module.exports = router;

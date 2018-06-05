@@ -58,7 +58,31 @@ header {
 section {
   margin: 1em; }
 
-nav {
+.nav {
+  background-color: #FFF;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: fixed;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 1em;
+  border-top: 5px solid #009EE0;
+  color: #009EE0;
+  height: 10vh; }
+  .nav img {
+    width: 50%; }
+  .nav ul {
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto; }
+    .nav ul li {
+      margin-right: 1em; }
+
+.bar {
   background-color: #FFF;
   display: -ms-flexbox;
   display: flex;
@@ -72,13 +96,13 @@ nav {
   padding: 0 1em;
   border-top: 5px solid #009EE0;
   color: #009EE0; }
-  nav img {
+  .bar img {
     width: 50%; }
-  nav ul {
+  .bar ul {
     display: -ms-flexbox;
     display: flex;
     margin-left: auto; }
-    nav ul li {
+    .bar ul li {
       margin-right: 1em; }
 
 article {
