@@ -6,9 +6,6 @@
   "directories": {
     "doc": "docs"
   },
-  "now": {
-    "dotenv": "variables.env.now"
-  },
   "scripts": {
     "start": "node ./server.js",
     "assets": "webpack -w",
